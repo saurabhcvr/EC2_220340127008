@@ -1,0 +1,32 @@
+Step 1. Open the Amazon EC2 console
+Step 2. Choose Launch Instance.
+Step 3. Choose an Amazon Machine Image (AMI), find an Amazon Linux 2 AMI at the top of the list and choose Select.
+Step 4. Choose an Instance Type, choose Next: Configure Instance Details.
+Step 5. Configure Instance Details, provide the following information:
+
+	Leave Number of instances at one.
+
+	Leave Purchasing option at the default setting.
+
+	For Network, choose the entry for the same VPC that you noted when you created your EFS file system in Step 1: Create your Amazon EFS file system.
+
+	For Subnet, choose a default subnet in any Availability Zone.
+	
+	
+Step 6. Add Storage.
+
+Step 7. Next: Add Tags.
+
+Step 8. Name your instance and choose Next: Configure Security Group.
+
+Step 9 .Configure Security Group, set Assign a security group to Select an existing security group. Choose the default security group.
+
+Step 10. Review and Launch.
+
+Step 11. Launch.
+
+Step 12. Select the check box for the key pair that you created, and then choose Launch Instances.
+
+Step 13. Once the EC2 instance is created and becomes available.
+
+Step 14: Make Sure your instance in in running state.
